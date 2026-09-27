@@ -1,0 +1,21 @@
+:root {
+  --color-link: #005fcc;
+  --color-table: #005fcc;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root[color-mode="user"] {
+    --color-link: #63b3ed;
+    --color-table: #63b3ed;
+  }
+}
+
+.notes {
+  white-space: pre-wrap;
+}
+
+#submit-button {
+  display: block;
+  margin-left: auto;
+  margin-right: 0;
+}

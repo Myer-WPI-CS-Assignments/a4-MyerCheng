@@ -1,0 +1,31 @@
+{
+  "name": "a4-myercheng",
+  "version": "1.0.0",
+  "description": "A React grade calculator with private MongoDB persistence.",
+  "author": "Myer Cheng",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "vite build",
+    "start": "NODE_ENV=production node server.js",
+    "test": "node --test && vite build"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongodb": "^7.6.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "vite-express": "^0.22.1"
+  },
+  "devDependencies": {
+    "vite": "^7.1.7"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "fsevents@2.3.3": true
+  }
+}
